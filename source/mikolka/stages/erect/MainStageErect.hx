@@ -45,6 +45,7 @@ class MainStageErect extends BaseStage {
 			add(redLight);
 
             var orangeLight:BGSprite = new BGSprite('erect/orangeLight', 189, -500);
+            orangeLight.scale.y = 4200;
             orangeLight.blend = BlendMode.ADD;
 			add(orangeLight);
 		}

@@ -56,7 +56,7 @@ class MobileOptionsSubState extends BaseOptionsMenu
 		addOption(option);
 
 		option = new Option('Dynamic Controls Color',
-			'If checked, the mobile controls color will be set to the notes color in your settings.\n(have effect during gameplay only)', 'dynamicColors',
+			'If checked, the mobile controls\' color will be set to the notes color in your settings.\n(Has effect during gameplay only)', 'dynamicColors',
 			BOOL);
 		addOption(option);
 

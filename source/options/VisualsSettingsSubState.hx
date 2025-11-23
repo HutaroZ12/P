@@ -182,14 +182,14 @@ class VisualsSettingsSubState extends BaseOptionsMenu
 
 		#if DISCORD_ALLOWED
 		var option:Option = new Option('Discord Rich Presence',
-			"Uncheck this to prevent accidental leaks, it will hide the Application from your \"Playing\" box on Discord",
+			"Uncheck this to prevent accidental leaks, it will hide the Application from your \"Playing\" box on Discord.",
 			'discordRPC',
 			BOOL);
 		addOption(option);
 		#end
 
 		var option:Option = new Option('Combo Stacking',
-			"If unchecked, Ratings and Combo won't stack, saving on System Memory and making them easier to read",
+			"If unchecked, Ratings and Combo won't stack, saving on System Memory and making them easier to read.",
 			'comboStacking',
 			BOOL);
 		addOption(option);
