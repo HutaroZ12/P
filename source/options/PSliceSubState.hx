@@ -6,20 +6,20 @@ class PSliceSubState extends BaseOptionsMenu {
         title = Language.getPhrase("vslice_menu","P-Slice settings");
         rpcTitle = "P-Slice settings menu";
         var option:Option = new Option('Freeplay dynamic coloring',
-			'Enables dynamic freeplay background color. Disable this if you prefer original V-slice freeplay menu colors',
+			'Enables dynamic freeplay background color.\nDisable this if you prefer original V-Slice Freeplay menu colors.',
 			'vsliceFreeplayColors',
 			BOOL);
 		addOption(option);
 		
 		#if sys
 		var option:Option = new Option('Logging type',
-			'Controls verbosity of the game\'s logs',
+			'Controls verbosity of the game\'s logs.',
 			'loggingType',
 			STRING,["None","Console","File"]);
 		addOption(option);
 		#end
 		var option:Option = new Option('Force "New" tag',
-			'If enabled will force every uncompleted song to show "new" tag even if it\'s disabled',
+			'If enabled, will force every uncompleted song to show "new" tag even if it\'s disabled.',
 			'vsliceForceNewTag',
 			BOOL);
 		addOption(option);
